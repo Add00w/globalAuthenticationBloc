@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/181701068/creativecreatorormaybenot.wakelock-wakelock.iml" filepath="$PROJECT_DIR$/.idea/modules/181701068/creativecreatorormaybenot.wakelock-wakelock.iml" group="android/wakelock" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/509927296/io.flutter.plugins.pathprovider-path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/509927296/io.flutter.plugins.pathprovider-path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1250250364/io.flutter.plugins.sharedpreferences-shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/-1250250364/io.flutter.plugins.sharedpreferences-shared_preferences.iml" group="android/shared_preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1710454398/io.flutter.plugins.videoplayer-video_player.iml" filepath="$PROJECT_DIR$/.idea/modules/1710454398/io.flutter.plugins.videoplayer-video_player.iml" group="android/video_player" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/509927296/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/509927296/path_provider.iml" group="android/path_provider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1250250364/shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/-1250250364/shared_preferences.iml" group="android/shared_preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1710454398/video_player.iml" filepath="$PROJECT_DIR$/.idea/modules/1710454398/video_player.iml" group="android/video_player" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/181701068/wakelock.iml" filepath="$PROJECT_DIR$/.idea/modules/181701068/wakelock.iml" group="android/wakelock" />
+    </modules>
+  </component>
+</project>
