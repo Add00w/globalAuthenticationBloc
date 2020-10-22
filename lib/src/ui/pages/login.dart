@@ -20,13 +20,26 @@ class Login extends StatelessWidget {
           builder: (context, state) {
             return GestureDetector(
               onTap: () => context.bloc<AuthBloc>()..add(Authenticate()),
-              child: Align(
-                alignment: Alignment.center,
-                child: state is AuthLoading
-                    ? Center(
-                        child: CircularProgressIndicator(),
-                      )
-                    : Text('login'),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.center,
+                    child: state is AuthLoading
+                        ? Center(
+                            child: CircularProgressIndicator(),
+                          )
+                        : Text('login'),
+                  ),
+                ],
               ),
             );
           },

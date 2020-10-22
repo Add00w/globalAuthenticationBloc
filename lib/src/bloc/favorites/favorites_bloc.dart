@@ -14,6 +14,7 @@ class FavoritesBloc extends Bloc<FavoritesEvent, FavoritesState> {
     // _authBloc = AuthBloc();
     _subscription = _authBloc.listen((authstate) {
       print('from fav bloc:$authstate');
+
       if (authstate is UnAuthenticatedState || authstate is AuthenticatedState)
         add(GetFavorites());
     });
@@ -32,10 +33,12 @@ class FavoritesBloc extends Bloc<FavoritesEvent, FavoritesState> {
   Stream<FavoritesState> mapEventToState(
     FavoritesEvent event,
   ) async* {
+    print('from fav bloc:$event');
     if (event is GetFavorites) {
       var response = await _favoritesRepository.getMyFavorites();
       if (response != null) {
         yield FavoritesLoaded(data: response);
+        print('from fav bloc:$state');
       } else
         yield AuthenticateToGetYourFavorites();
     }
